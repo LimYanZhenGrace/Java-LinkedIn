@@ -1,9 +1,9 @@
 package _01_02b;
 
-public class Employee {
-
-  public static void main(String[] args) {
-
+public class Employee 
+{
+  public static void main(String[] args) 
+  {
     // Create a variable called age of type int and assign it the value 29.
     int age = 29;
 
@@ -47,5 +47,4 @@ public class Employee {
     // thirdBonus.
     System.out.println(firstBonus + secondBonus + thirdBonus);
   }
-
 }

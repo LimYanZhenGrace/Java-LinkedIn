@@ -2,8 +2,8 @@ package _02_07b;
 
 public class TicketMachine {
   
-public static void main(String[] args) {
-  // Create an object called ticket of type Ticket
+  public static void main(String[] args) {
+    // Create an object called ticket of type Ticket
     Ticket ticket = new Ticket();
 
     // Set the destination of the ticket to New York
@@ -23,8 +23,5 @@ public static void main(String[] args) {
 
     // Print the ticket's isReturn value to the console
     System.out.println(ticket.getIsReturn());
-
-}
-
-
+  }
 }

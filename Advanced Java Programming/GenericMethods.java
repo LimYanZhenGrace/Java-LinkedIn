@@ -7,9 +7,9 @@ public class GenericMethods//Main
     static Integer[] intArray = {1, 2, 3, 4, 5};
     static Boolean[] boolArray = {true, false, true};
     
-    public static List arrayToList (Object [] array, List <Object> list)
+    public static <T> List <T> arrayToList (T [] array, List <T> list)
     {
-    	for (Object object : array)
+    	for (T object : array)
         {
         	list.add(object);
         }
